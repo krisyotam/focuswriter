@@ -1,0 +1,29 @@
+About
+=====
+
+This is my custom build of FocusWriter, where I plan to expand themes and potentially introduce additional minimalist features.
+
+Learn more about FocusWriter [here](https://github.com/gottcode/focuswriter).
+
+Portable Mode
+=============
+
+Create a folder named "Data" in the same folder as the executable
+(the application bundle if using macOS) to run this program from a
+USB drive. Simply rename or delete the "Data" folder if you later decide
+you want it to start storing its settings and related files on the host
+computer.
+
+If you have already been using FocusWriter and would like to migrate its
+themes to a USB drive, you will need to copy the "Themes" folder into the
+newly created "Data" folder. The "Themes" folder is located in one of the
+following places:
+
+  Linux:
+    ~/.local/share/GottCode/FocusWriter
+
+  macOS:
+    ~/Library/Application Support/GottCode/FocusWriter
+
+  Windows:
+    %LOCALAPPDATA%\GottCode\FocusWriter
